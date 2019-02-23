@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:title="@string/menu_profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="20"/>
+    <item
+        android:id="@+id/cart"
+        android:title="@string/menu_cart"
+        android:icon="@drawable/ic_cart"
+        app:showAsAction="always"
+        android:orderInCategory="10"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="30"
+        android:onClick="signOut"/>
 
 </menu>
