@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "8113867557",
+    "firebase_url": "https://okfood-46666.firebaseio.com",
+    "project_id": "okfood-46666",
+    "storage_bucket": "okfood-46666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8113867557:android:73c9210509aa1760",
+        "android_client_info": {
+          "package_name": "com.example.ok_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8113867557-je24tfgp3hsogpe4enra35pcceclo6ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAC272nYfNwq2MdQjHqv-bgJ4n75Ikx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
