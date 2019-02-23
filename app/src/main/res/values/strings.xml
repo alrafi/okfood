@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">OK-Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_makanan">Makanan</string>
+    <string name="tab_minuman">Minuman</string>
+    <string name="paket_kenyang">paket kenyang</string>
+    <string name="nasi_ayam_telor_sayur_nangka_sambal">nasi, ayam, telor, sayur nangka, sambal</string>
+    <string name="rp_20_000">Rp. 20.000</string>
+    <string name="es_coklat_kocok">Es Coklat Kocok</string>
+    <string name="susu_coklat_kocok_nikmat_dingin_disuana_yang_panas">susu coklat kocok, nikmat dingin, disuana yang panas</string>
+    <string name="rp_10_000">Rp. 10.000</string>
+    <string name="buy">buy</string>
+
 </resources>
