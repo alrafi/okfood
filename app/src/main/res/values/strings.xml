@@ -15,4 +15,10 @@
     <string name="rp_10_000">Rp. 10.000</string>
     <string name="buy">buy</string>
 
+
+    <string name="app_web_client_id">347959579717-fhuembevv5rvsl6cckk3v76ebu8fvs1t.apps.googleusercontent.com</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_logout">Logout</string>
+
 </resources>
