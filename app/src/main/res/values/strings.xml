@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">OK-Food</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="ok_food_app_name">OK-FOOD</string>
+    <string name="ok_food_logo_description">Ok-Food Burger</string>
+    <string name="login_as_admin_button">Login as Admin</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tab_makanan">Makanan</string>
     <string name="tab_minuman">Minuman</string>
