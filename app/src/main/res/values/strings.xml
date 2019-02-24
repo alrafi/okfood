@@ -20,5 +20,6 @@
     <string name="menu_profile">Profile</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_logout">Logout</string>
+    <string name="ok_order">OK - Order</string>
 
 </resources>
