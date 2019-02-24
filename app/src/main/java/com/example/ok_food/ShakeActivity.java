@@ -15,23 +15,13 @@ public class ShakeActivity extends AppCompatActivity {
     private com.example.ok_food.ShakeDetector mShakeDetector;
 
     private TextView tvShake;
-    private Button btn;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {   //demo link   http://jasonmcreynolds.com/?p=388
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.shake_reward);
 
         tvShake = findViewById(R.id.tvShake);
-//        btn = findViewById(R.id.btn);
-
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,ServiceActivity.class);
-//                startActivity(intent);
-//            }
-//        });
 
         // ShakeDetector initialization
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -42,11 +32,8 @@ public class ShakeActivity extends AppCompatActivity {
 
             @Override
             public void onShake(int count) {
-                /*
-                 * The following method, "handleShakeEvent(count):" is a stub //
-                 * method you would use to setup whatever you want done once the
-                 * device has been shook.
-                 */
+
+                // change the text into this after shaked
                 tvShake.setText("key chain by okfood");
                 Toast.makeText(ShakeActivity.this, "Shaked!!!", Toast.LENGTH_SHORT).show();
             }
