@@ -1,5 +1,6 @@
 package com.example.ok_food;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,7 @@ public class RewardActivity extends AppCompatActivity {
     }
 
     public void shakeNow(View view) {
-        Intent intent = new Intent(RewardActivity.this, )
+        Intent intent = new Intent(RewardActivity.this, ShakeActivity.class);
+        startActivity(intent);
     }
 }
