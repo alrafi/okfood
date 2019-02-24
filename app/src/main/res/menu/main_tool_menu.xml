@@ -5,6 +5,7 @@
         android:id="@+id/profile"
         android:title="@string/menu_profile"
         android:icon="@drawable/ic_profile"
+        android:onClick="clickprofile"
         app:showAsAction="ifRoom"
         android:orderInCategory="20"/>
     <item

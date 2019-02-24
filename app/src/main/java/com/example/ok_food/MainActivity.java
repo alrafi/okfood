@@ -79,4 +79,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void clickprofile(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), ProfilActivity.class);
+        startActivity(intent);
+    }
 }
