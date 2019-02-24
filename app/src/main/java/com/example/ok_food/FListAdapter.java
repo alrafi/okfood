@@ -7,9 +7,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,7 +34,7 @@ public class FListAdapter extends RecyclerView.Adapter<FListAdapter.FViewHolder>
     @NonNull
     @Override
     public FViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = mInflater.inflate(R.layout.makananlist_item, viewGroup, false);
+        View view = mInflater.inflate(R.layout.list_item, viewGroup, false);
         return new FViewHolder(view, this);
     }
 
@@ -44,6 +45,8 @@ public class FListAdapter extends RecyclerView.Adapter<FListAdapter.FViewHolder>
             viewHolder.setNama(food.getString("nama"));
             viewHolder.setDesc(food.getString("deskripsi"));
             viewHolder.setHarga(food.getString("harga"));
+            //viewHolder.setImage(food.getString("foto"));
+            Picasso.get().load(food.getString("foto")).error(R.drawable.nasi_padang_1).placeholder(R.drawable.nasi_padang_1).fit().into(viewHolder.image);
         } catch (JSONException e) {
             Log.v(TAG, "Error parsing JSONObject");
         }
@@ -59,7 +62,7 @@ public class FListAdapter extends RecyclerView.Adapter<FListAdapter.FViewHolder>
         private TextView nama;
         private TextView desc;
         private TextView harga;
-        private ImageView image;
+        public ImageView image;
 
         FViewHolder(View itemView, FListAdapter adapter) {
             super(itemView);
@@ -81,10 +84,5 @@ public class FListAdapter extends RecyclerView.Adapter<FListAdapter.FViewHolder>
         void setHarga(String harga) {
             this.harga.setText(harga);
         }
-
-        void setImage(String url) {
-
-        }
-
     }
 }
