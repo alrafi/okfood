@@ -15,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "347959579717-ng1fsj1io9t1ltj5v4kbgjo1e4iqo5ce.apps.googleusercontent.com",
+          "client_id": "347959579717-oob1o4r8r3io01tcnufd10o3rvrcli09.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.ok_food",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "client_id": "347959579717-fhuembevv5rvsl6cckk3v76ebu8fvs1t.apps.googleusercontent.com",
+          "client_id": "347959579717-062grvbha5j7q31u3lbrpsa6113ue3cr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "347959579717-fhuembevv5rvsl6cckk3v76ebu8fvs1t.apps.googleusercontent.com",
+              "client_id": "347959579717-062grvbha5j7q31u3lbrpsa6113ue3cr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
