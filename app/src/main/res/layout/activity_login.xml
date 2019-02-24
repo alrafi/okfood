@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorLayout"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,7 +19,7 @@
         android:layout_marginBottom="8dp"
         android:text="@string/ok_food_app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorBackground"
         android:textSize="30sp"
         android:typeface="normal"
         app:fontFamily="sans-serif-black"
@@ -43,19 +44,6 @@
         app:layout_constraintVertical_bias="0.802"
         app:srcCompat="@drawable/burger" />
 
-    <Button
-        android:id="@+id/button_admin_login"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="163dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/login_as_admin_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ok_food_title" />
-
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
         android:layout_width="170dp"
@@ -70,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_admin_login"
+        app:layout_constraintTop_toBottomOf="@+id/ok_food_title"
         app:layout_constraintVertical_bias="0.118" />
 
 
