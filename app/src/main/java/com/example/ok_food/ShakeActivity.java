@@ -35,7 +35,7 @@ public class ShakeActivity extends AppCompatActivity {
 
                 // change the text into this after shaked
                 tvShake.setText("key chain by okfood");
-                Toast.makeText(ShakeActivity.this, "Shaked!!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ShakeActivity.this, "CONGRATS!!", Toast.LENGTH_SHORT).show();
             }
         });
 
