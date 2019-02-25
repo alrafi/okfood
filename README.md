@@ -4,7 +4,7 @@ OK-FOOD adalah sebuah aplikasi mobile android untuk pemesanan makanan dan minuma
 
 ## Instalasi
 
-- Download file apk di perangkat android user
+- Download file apk yang tersedia di repository ini, dan jalankan di perangkat android user
 
 ## Cara Penggunaan Aplikasi
 
