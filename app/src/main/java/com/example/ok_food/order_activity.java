@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -58,5 +59,11 @@ public class order_activity extends AppCompatActivity {
 
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    public void confirmOrder(View view) {
+        Intent intent = new Intent(this, OrderCompletedActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

@@ -68,7 +68,7 @@ public class fragment_makanan extends Fragment {
                 }
                 mAdapter.setmFoodList(argument);
                 mAdapter.notifyDataSetChanged();
-                Log.d(TAG, argument.toString());
+                //Log.d(TAG, argument.toString());
             }
 
             @Override
