@@ -3,10 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/akar"
     android:background="@color/colorBackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:layout_marginRight="8dp"
                 android:text="Please, shake now your phone"
                 android:textAlignment="center"
-                android:textColor="@color/colorBodyBlack"
+                android:textColor="@color/colorLayout"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
                 android:layout_marginRight="8dp"
                 android:text="You've got:"
                 android:textAlignment="center"
-                android:textColor="@color/colorBodyBlack"
+                android:textColor="@color/colorLayout"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
                 android:layout_marginRight="8dp"
                 android:text="blablabla"
                 android:textAlignment="center"
-                android:textColor="@color/colorBodyBlack"
+                android:textColor="@color/colorLayout"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -89,6 +89,5 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
         </LinearLayout>
     </ScrollView>
-
 
 </android.support.constraint.ConstraintLayout>
