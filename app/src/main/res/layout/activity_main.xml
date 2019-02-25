@@ -16,7 +16,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorLayout"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
@@ -25,15 +25,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorLayout"
         android:minHeight="?attr/actionBarSize"
-        android:theme="@style/AlertDialog.AppCompat.Light"/>
+        android:theme="@style/AlertDialog.AppCompat.Light" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tab_layout"/>
+        android:layout_below="@id/tab_layout" />
 
 
 </RelativeLayout>

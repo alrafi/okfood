@@ -12,7 +12,8 @@
         android:title="@string/menu_cart"
         android:icon="@drawable/ic_cart"
         app:showAsAction="always"
-        android:orderInCategory="10"/>
+        android:orderInCategory="10"
+        android:onClick="orderNow"/>
 
     <item
         android:id="@+id/reward"

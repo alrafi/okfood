@@ -20,5 +20,9 @@
     <string name="menu_profile">Profile</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_logout">Logout</string>
+    <string name="ok_order">OK - Order</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="order_confirmed_text">Your order is confirmed</string>
+    <string name="order_confirmed_img_desc">Order Processed!</string>
 
 </resources>
