@@ -113,6 +113,12 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+
+    public void clickprofile(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), ProfilActivity.class);
+        startActivity(intent);
+    }
+
     public void orderNow(MenuItem item) {
         boolean exist = false;
         for (Map.Entry<String, Map.Entry<String, String>> e : itemBought.entrySet()) {

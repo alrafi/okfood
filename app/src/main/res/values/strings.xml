@@ -20,6 +20,13 @@
     <string name="menu_profile">Profile</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_logout">Logout</string>
+
+    <string name="title_activity_profil">ProfilActivity</string>
+    <string name="gambar_di_string_title_activity_profil">gambar di @string/title_activity_profil</string>
+    <string name="udin_kahuripan">Udin Kahuripan</string>
+    <string name="set_your_location">SET LOCATION</string>
+    <string name="your_location">your location</string>
+
     <string name="ok_order">OK - Order</string>
     <string name="thank_you">Thank You!</string>
     <string name="order_confirmed_text">Your order is confirmed</string>
