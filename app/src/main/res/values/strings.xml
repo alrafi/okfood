@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OK-Food</string>
+    <string name="app_name">OK-FOOD</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="ok_food_app_name">OK-FOOD</string>
     <string name="ok_food_logo_description">Ok-Food Burger</string>
@@ -31,8 +31,10 @@
     <string name="thank_you">Thank You!</string>
     <string name="order_confirmed_text">Your order is confirmed</string>
     <string name="order_confirmed_img_desc">Order Processed!</string>
+  
     <string name="you_have">You have</string>
     <string name="_1_reward">1 reward</string>
     <string name="please_press_shake_to_get_your_merchandise">Please press shake to get your merchandise</string>
+    <string name="location_service_warning">please allow location permission for this app on your android, thanks :)</string>
 
 </resources>

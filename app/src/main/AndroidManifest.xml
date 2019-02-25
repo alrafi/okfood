@@ -16,9 +16,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
 
-      <activity android:name=".ProfilActivity"></activity>
-        <activity android:name=".OrderCompletedActivity"></activity>
-        <activity android:name=".order_activity"></activity>
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".OrderCompletedActivity" />
+        <activity android:name=".order_activity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +26,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ShakeActivity"></activity>
-        <activity android:name=".RewardActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ShakeActivity" />
+        <activity android:name=".RewardActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" />
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
