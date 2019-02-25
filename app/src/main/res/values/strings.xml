@@ -31,5 +31,8 @@
     <string name="thank_you">Thank You!</string>
     <string name="order_confirmed_text">Your order is confirmed</string>
     <string name="order_confirmed_img_desc">Order Processed!</string>
+    <string name="you_have">You have</string>
+    <string name="_1_reward">1 reward</string>
+    <string name="please_press_shake_to_get_your_merchandise">Please press shake to get your merchandise</string>
 
 </resources>
