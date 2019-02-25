@@ -15,4 +15,11 @@ public class OrderCompletedActivity extends AppCompatActivity {
         Intent intent = new Intent("order confirmed");
         LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
     }
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
