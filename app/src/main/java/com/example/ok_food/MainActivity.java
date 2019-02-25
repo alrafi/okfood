@@ -1,9 +1,12 @@
 package com.example.ok_food;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Color;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -86,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        NotificationReceiver notifier = new NotificationReceiver(this);
+        notifier.execute();
+
         BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -107,13 +113,18 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
-    public void loginAsAdmin(View view) {
-        Intent intent = new Intent();
-    }
-
     public void orderNow(MenuItem item) {
-        Intent intent = new Intent(this, order_activity.class);
-        intent.putExtra("order", (Serializable) itemBought);
-        startActivity(intent);
+        boolean exist = false;
+        for (Map.Entry<String, Map.Entry<String, String>> e : itemBought.entrySet()) {
+            if (Integer.parseInt(e.getValue().getKey()) != 0) {
+                exist = true;
+                break;
+            }
+        }
+        if (exist) {
+            Intent intent = new Intent(this, order_activity.class);
+            intent.putExtra("order", (Serializable) itemBought);
+            startActivity(intent);
+        }
     }
 }
