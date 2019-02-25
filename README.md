@@ -18,7 +18,12 @@ OK-FOOD adalah sebuah aplikasi mobile android untuk pemesanan makanan dan minuma
 
 ## Letak deliverables
 
-File deliverables berada pada folder app -> main -> src -> res
+File deliverables berada pada repository ini:
+
+Source code dalam Java berada di dalam folder app -> main -> src -> java -> com -> example -> ok_food
+Source code layout berada di dalam folder app -> main -> src -> res -> layout
+
+APK dalam folder bin
 
 ###### developed by
 - Hafis Alrafi Irsal
