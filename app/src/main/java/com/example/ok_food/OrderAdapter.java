@@ -12,8 +12,6 @@ import android.widget.TextView;
 import java.util.AbstractMap;
 import java.util.Map;
 
-import static android.support.constraint.Constraints.TAG;
-
 public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderHolder> {
 
     private LayoutInflater mInflater;
