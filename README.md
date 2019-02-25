@@ -25,6 +25,10 @@ Source code layout berada di dalam folder app -> main -> src -> res -> layout
 
 APK dalam folder bin
 
+###### Note:
+
+Karena gitlab.informatika.org down pada hari sabtu dan minggu, maka pengerjaan proyek ini dilakukan di https://github.com/alrafi/okfood.
+
 ###### developed by
 - Hafis Alrafi Irsal
 - Teresa
