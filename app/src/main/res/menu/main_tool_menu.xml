@@ -16,11 +16,19 @@
         android:onClick="orderNow"/>
 
     <item
+        android:id="@+id/reward"
+        android:title="Reward"
+        android:icon="@drawable/ic_reward"
+        app:showAsAction="always"
+        android:orderInCategory="30"
+        android:onClick="rewards"/>
+
+    <item
         android:id="@+id/logout"
         android:title="@string/menu_logout"
         android:icon="@drawable/ic_logout"
         app:showAsAction="ifRoom"
-        android:orderInCategory="30"
+        android:orderInCategory="40"
         android:onClick="signOut"/>
 
 </menu>

@@ -127,4 +127,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void rewards(MenuItem item) {
+        Intent intent = new Intent(MainActivity.this, RewardActivity.class);
+        startActivity(intent);
+    }
 }
